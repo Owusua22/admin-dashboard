@@ -1,0 +1,104 @@
+.users{
+    flex: 4;
+    padding: 20px;
+}
+.usercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    width: 250px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    color: beige;
+    cursor: pointer;
+    font-size: 17px;
+}
+.userdetails{
+    display: flex;
+    margin-top: 20px;
+}
+.usershow{
+    flex: 1;
+    padding: 20px;
+    box-shadow: -11px 6px 16px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -11px 6px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -11px 6px 16px 0px rgba(0,0,0,0.75);
+}
+.userupdate{
+    flex: 2;
+    padding: 20px;
+    box-shadow: -11px 6px 16px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -11px 6px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -11px 6px 16px 0px rgba(0,0,0,0.75);
+margin-left: 20px;
+
+}
+.usershowtop{
+    display: flex;
+    align-items: center;
+}
+.usertitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.name{
+    font-weight: 600;
+}
+.userjob{
+    font-weight: 300;
+}
+.showdown{
+    margin-top: 20px;
+}
+.showtitle{
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(94, 93, 93);
+}
+.userinfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: black;
+}
+.infotitle{
+    margin-left: 10px;
+}
+.updateform{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.updatetitle{
+    font-size: 28px;
+    font-weight: 800;
+}
+.updateitem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+label{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.updateinput{
+    border: none;
+    width: 250px;
+    border-bottom: 1px solid #000;
+    height: 30px;
+}
+.updateup{
+
+}
+.updateright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

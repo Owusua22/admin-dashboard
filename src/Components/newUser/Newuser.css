@@ -1,0 +1,44 @@
+.newuser{
+    padding: 20px;
+    flex: 4;
+}
+.newuserform{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.newitem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.newitem label{
+    color: grey;
+    font-weight: 600;
+}
+.newitem input{
+    border-radius: 5px;
+    height: 60px;
+    padding: 10px;
+}
+
+.mb-3{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 40px;
+    color: grey;
+    font-weight: 600;
+}
+.create{
+width: 200px;
+border: none;
+padding: 7px 10px;
+font-weight: 400px;
+height: 50px;
+margin-top: 170px;
+margin-left: -540px;
+}
